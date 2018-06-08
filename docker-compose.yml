@@ -1,4 +1,4 @@
-version: '2' 
+version: '3' 
 services:
   web:
     build: Dockerfiles/anaconda3_01
@@ -13,16 +13,14 @@ services:
       - mongo
     links:
       - mongo:mongo
-
   mongo:
     image: mongo
     env_file: .env
     volumes:
       - ./.data/mongo:/data/db
       - ./.dump/mongo:/dump
-      
-   rstudio01:
-    build: Dockerfiles/rstudio01
-      ports:
+  rstudio01:
+    build: Dockerfiles/rstudio
+    ports:
         - "8098:80"
         - "8099:8787"
