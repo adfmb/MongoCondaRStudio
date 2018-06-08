@@ -24,3 +24,6 @@ services:
     ports:
         - "8098:80"
         - "8099:8787"
+    environment:
+        - ADMIN_USER=admin
+        - ADMIN_PASS=supersecret
