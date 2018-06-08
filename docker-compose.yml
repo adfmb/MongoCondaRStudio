@@ -13,12 +13,14 @@ services:
       - mongo
     links:
       - mongo:mongo
+
   mongo:
     image: mongo
     env_file: .env
     volumes:
       - ./.data/mongo:/data/db
       - ./.dump/mongo:/dump
+      
    rstudio01:
     build: Dockerfiles/rstudio01
       ports:
