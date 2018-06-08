@@ -19,3 +19,8 @@ services:
     volumes:
       - ./.data/mongo:/data/db
       - ./.dump/mongo:/dump
+   rstudio01:
+    build: Dockerfiles/rstudio01
+      ports:
+        - "8098:80"
+        - "8099:8787"
