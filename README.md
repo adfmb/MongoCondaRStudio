@@ -6,7 +6,7 @@ Get the files
 ===========
 - Clone this [**repo**](https://github.com/adfmb/MongoCondaRStudio.git)
 
-# Steps {.tabset}
+# Steps
 - Go to the folder MongoCondaRStudio/
 - docker-compose build
 - docker-compose up
