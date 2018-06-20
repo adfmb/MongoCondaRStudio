@@ -14,4 +14,5 @@ Cluster with Mongo, Conda &amp; RStudio images from Dockerfiles and including th
 
 
 ## References
-- [MongoConda by juandados](https://github.com/juandados/MongoConda/tree/0299548ce045d6b52f50d4e07997ee585040add6)
+- [MongoConda *by juandados*](https://github.com/juandados/MongoConda/tree/0299548ce045d6b52f50d4e07997ee585040add6)
+- [rstudio-docker *by fikipollo*](https://github.com/fikipollo/rstudio-docker)
