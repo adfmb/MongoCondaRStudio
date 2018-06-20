@@ -12,10 +12,10 @@ Get the files
 - docker-compose up
 
 ### For Jupyter
-- Go to [**Jupyter**](http://localhost:8888/) and wirte the given *token*
+- Go to [**Jupyter**](http://localhost:8888/) and write the given *token*
 
 ### For RStudio
-- visit **http://localhost:8098/admin.php** and create new user / pasword (*admin / supersecret*).
+- Visit **http://localhost:8098/admin.php** and create new user / pasword (*admin / supersecret*).
 - Go to [**RStudio**](http://localhost:8099) and log in with credentials from the previuos step
 
 
