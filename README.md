@@ -1,7 +1,13 @@
-# MongoCondaRStudio
+MongoCondaRStudio
+================
 Cluster with Mongo, Conda &amp; RStudio images from Dockerfiles and including the clone of the repository [Quality of Life Analysis by dragon-analytics](https://github.com/dragon-analytics/quality-of-life-analysis)
 
-## Steps
+Get the files
+===========
+- Clone this [**repo**](https://github.com/adfmb/MongoCondaRStudio.git)
+
+# Steps {.tabset}
+- Go to the folder MongoCondaRStudio/
 - docker-compose build
 - docker-compose up
 
