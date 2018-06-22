@@ -3,8 +3,8 @@ services:
   web:
     build: Dockerfiles/anaconda3_01
     env_file: .env
-    volumes:
-      - ./:/mediapy
+    #volumes:
+     # - ./:/mediapy
     command: bash -c "/opt/conda/bin/jupyter notebook --notebook-dir=mediapy/notebooks --ip='*' --port=8888 --no-browser --NotebookApp.token=github --allow-root" 
     ports:
       - 8888:8888
@@ -23,6 +23,7 @@ services:
 
   instance1-rstudio:
     image: fikipollo/rstudio:0.9
+    env_file: .env
     depends_on:
       - mongo
     links:
